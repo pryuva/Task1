@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	paddind:0;
+	font-family: sans-serif;
+}
+
+.main{
+	position: relative;
+	width: 500hv;
+	height: 600hv;
+	background: blanchedalmond;
+
+}	
+
+nav{
+	display: flex;
+	width: 100%;
+	margin: auto;
+	padding: 20px 0;
+	align-items:center;
+	justify-content: space-between;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	color: orange;
+}
+
+.hero{
+	margin-left: 10%;
+	margin-top: 18%;
+
+}
+
+.hero h1{
+	font-size: 60px;
+	color: #212121;
+	margin-bottom: 30px;
+
+}
+
+span{
+	color: red;
+}
+
+.hero p{
+	color: maroon;
+	line-height:25px ;
+}
+
+.hero a{
+	background: #212121;
+	padding: 20px,30px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #efff;
+	display: inline-block;
+	margin: 50px,5;
+	border-radius: 3px;
+}
+
